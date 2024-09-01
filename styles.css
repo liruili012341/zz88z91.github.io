@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ffffff; /* 中间背景色 */
+    transition: background-color 0.3s;
+  }
+  
+  .blue-header, .blue-footer {
+    background-color: #005fc5; /* 蓝色头部和底部背景 */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .blue-header {
+    border-bottom: 1px solid #eaeaea; /* 头部下边框 */
+  }
+  
+  .blue-footer {
+    border-top: 1px solid #eaeaea; /* 底部上边框 */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+  }
+  
+  .sitemap ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sitemap > ul > li {
+    margin-bottom: 10px;
+  }
+  
+  .sitemap a {
+    text-decoration: none;
+    color: #007bff; /* 链接文字颜色 */
+    font-size: 18px;
+  }
+  
+  .sitemap ul ul {
+    padding-left: 20px;
+  }
+  
+  .theme-toggle {
+    background-color: #fff;
+    color: #007bff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  /* 深色背景样式 */
+  .dark-theme {
+    background-color: #333;
+  }
+  
+  .dark-theme .blue-header, .dark-theme .blue-footer {
+    background-color: #555;
+  }
+  
+  .dark-theme .sitemap a {
+    color: #fff;
+  }
+  
+  .dark-theme .theme-toggle {
+    background-color: #aaa;
+  }
+  
